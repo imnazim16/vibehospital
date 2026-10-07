@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VibeMed Hospital – Compassionate Care. Advanced Medical Excellence.</title>
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Swiper Slider CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <!-- Theme CSS -->
+  <link href="style.css" rel="stylesheet">
+</head>
+<body data-nav="home">
+  <div id="site-header"></div>
+
+  <!-- 1. HERO SLIDER (Swiper with 3 Images) -->
+  <section class="hero-slider-section">
+    <div class="swiper hero-swiper">
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide hero-slide" style="background-image: url('https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1800&q=80');">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-8">
+                <span class="hero-badge mb-3"><i class="ri-shield-check-line text-accent"></i> NABH &amp; JCI Accredited Multispecialty Hospital</span>
+                <h1 class="mb-4">Compassionate Care.<br>Advanced Medical Excellence.</h1>
+                <p class="lead mb-4 text-white-50 fs-5">World-class patient-centric healthcare with state-of-the-art medical technology and 24/7 emergency response.</p>
+                <ul class="list-unstyled hero-features mb-4">
+                  <li><i class="ri-checkbox-circle-fill"></i> 500+ Senior Doctors &amp; Renowned Specialists</li>
+                  <li><i class="ri-checkbox-circle-fill"></i> Advanced Robotic Surgery &amp; Diagnostics</li>
+                  <li><i class="ri-checkbox-circle-fill"></i> 24/7 Level-1 Emergency &amp; Trauma Care</li>
+                </ul>
+                <div class="d-flex flex-wrap gap-3">
+                  <a href="book-appointment.html" class="btn btn-accent btn-lg"><i class="ri-calendar-check-line me-1"></i> Book Appointment</a>
+                  <a href="doctors.html" class="btn btn-outline-light btn-lg"><i class="ri-search-line me-1"></i> Find a Doctor</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide hero-slide" style="background-image: url('https://images.unsplash.com/photo-1551190822-a9333d879b1f?auto=format&fit=crop&w=1800&q=80');">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-8">
+                <span class="hero-badge mb-3"><i class="ri-heart-pulse-line text-accent"></i> Centre of Excellence in Cardiac &amp; Neuro Sciences</span>
+                <h1 class="mb-4">Pioneering Surgeries.<br>Trusted Clinical Outcomes.</h1>
+                <p class="lead mb-4 text-white-50 fs-5">Minimally invasive cardiac procedures, stroke care within golden hours, and high precision robotic interventions.</p>
+                <ul class="list-unstyled hero-features mb-4">
+                  <li><i class="ri-checkbox-circle-fill"></i> 24/7 Dedicated Cardiac Cath Labs</li>
+                  <li><i class="ri-checkbox-circle-fill"></i> High Precision 3T MRI &amp; 128 Slice CT Scan</li>
+                  <li><i class="ri-checkbox-circle-fill"></i> 99.4% Successful Surgical Track Record</li>
+                </ul>
+                <div class="d-flex flex-wrap gap-3">
+                  <a href="specialities.html" class="btn btn-accent btn-lg"><i class="ri-stethoscope-line me-1"></i> Explore Specialities</a>
+                  <a href="contact.html#second-opinion" class="btn btn-outline-light btn-lg"><i class="ri-file-search-line me-1"></i> Get Second Opinion</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="swiper-slide hero-slide" style="background-image: url('https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=1800&q=80');">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-8">
+                <span class="hero-badge mb-3"><i class="ri-global-line text-accent"></i> International Healthcare Services</span>
+                <h1 class="mb-4">Global Patient Care.<br>Seamless Hospital Support.</h1>
+                <p class="lead mb-4 text-white-50 fs-5">Serving patients across 45+ countries with dedicated language interpreters, visa assistance, and tele-consultation.</p>
+                <ul class="list-unstyled hero-features mb-4">
+                  <li><i class="ri-checkbox-circle-fill"></i> Free Medical Opinion &amp; Cost Estimation</li>
+                  <li><i class="ri-checkbox-circle-fill"></i> Airport Pickup &amp; Concierge Accommodation</li>
+                  <li><i class="ri-checkbox-circle-fill"></i> Cashless Treatment with 40+ International TPAs</li>
+                </ul>
+                <div class="d-flex flex-wrap gap-3">
+                  <a href="international-patients.html" class="btn btn-accent btn-lg"><i class="ri-plane-line me-1"></i> International Desk</a>
+                  <a href="tel:+919876543210" class="btn btn-outline-light btn-lg"><i class="ri-phone-line me-1"></i> Emergency Call</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Swiper Controls -->
+      <div class="hero-nav-btn hero-prev"><i class="ri-arrow-left-s-line"></i></div>
+      <div class="hero-nav-btn hero-next"><i class="ri-arrow-right-s-line"></i></div>
+      <div class="swiper-pagination hero-pagination pb-3"></div>
+    </div>
+  </section>
+
+  <!-- QUICK STATS (Modern Ribbon Design) -->
+  <section class="stats-wrap">
+    <div class="container">
+      <div class="stats-ribbon-card">
+        <div class="row g-2 g-lg-0 align-items-center">
+          <div class="col-6 col-lg-3 border-end-lg">
+            <div class="stat-pill-item">
+              <div class="stat-pill-icon bg-primary-subtle text-primary">
+                <i class="ri-award-fill"></i>
+              </div>
+              <div>
+                <h3 class="text-primary">25+</h3>
+                <div class="stat-label">Years of Trust</div>
+                <p class="stat-sub">Healing Since 2001</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 border-end-lg">
+            <div class="stat-pill-item">
+              <div class="stat-pill-icon bg-success-subtle text-success">
+                <i class="ri-team-fill"></i>
+              </div>
+              <div>
+                <h3 class="text-success">500+</h3>
+                <div class="stat-label">Senior Doctors</div>
+                <p class="stat-sub">Globally Trained</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3 border-end-lg">
+            <div class="stat-pill-item">
+              <div class="stat-pill-icon bg-info-subtle text-info">
+                <i class="ri-stethoscope-fill"></i>
+              </div>
+              <div>
+                <h3 class="text-info">100+</h3>
+                <div class="stat-label">Super Specialists</div>
+                <p class="stat-sub">Across 30+ Disciplines</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-lg-3">
+            <div class="stat-pill-item">
+              <div class="stat-pill-icon bg-danger-subtle text-danger">
+                <i class="ri-heart-pulse-fill"></i>
+              </div>
+              <div>
+                <h3 class="text-danger">24/7</h3>
+                <div class="stat-label">Emergency &amp; Trauma</div>
+                <p class="stat-sub">&lt; 60 Min Golden Hour</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. ABOUT HOSPITAL SHOWCASE SECTION (Linked with About Us) -->
+  <section class="section">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6">
+          <div class="about-thumb-wrap">
+            <img src="https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=900&q=80" class="img-fluid img-rounded-lg shadow-lg w-100" alt="VibeMed Hospital Building">
+            <div class="about-badge-float glass-card-dark shadow">
+              <div class="d-flex align-items-center gap-3">
+                <div class="fs-1 text-accent"><i class="ri-shield-star-line"></i></div>
+                <div>
+                  <h6 class="mb-0 text-white fw-bold">NABH Accredited</h6>
+                  <small class="text-white-50">Highest Standard of Clinical Care &amp; Safety</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <span class="eyebrow text-accent fw-bold text-uppercase small">About VibeMed Hospital</span>
+          <h2 class="mt-2 mb-3">Redefining Healthcare with Excellence &amp; Empathy</h2>
+          <p class="lead text-primary fw-medium">A 300-bed multispecialty quaternary care hospital committed to healing lives.</p>
+          <p class="text-muted">Established in 2001, VibeMed Hospital combines medical expertise, revolutionary healthcare technology, and compassionate patient care. We host over 30 medical departments led by globally trained clinicians who handle complex cases with high clinical success rates.</p>
+          
+          <div class="row g-3 py-2 mb-4">
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center gap-2">
+                <i class="ri-checkbox-circle-fill text-accent fs-5"></i>
+                <span class="fw-semibold small">12 Ultra-modern Modular OTs</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center gap-2">
+                <i class="ri-checkbox-circle-fill text-accent fs-5"></i>
+                <span class="fw-semibold small">80 Critical Care &amp; ICU Beds</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center gap-2">
+                <i class="ri-checkbox-circle-fill text-accent fs-5"></i>
+                <span class="fw-semibold small">Paperless EMR &amp; Digital ICU</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center gap-2">
+                <i class="ri-checkbox-circle-fill text-accent fs-5"></i>
+                <span class="fw-semibold small">40+ Cashless TPA Tie-ups</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex flex-wrap gap-3">
+            <a href="about.html" class="btn btn-primary"><i class="ri-arrow-right-line me-1"></i> Discover Our Story</a>
+            <a href="infrastructure.html" class="btn btn-outline-primary"><i class="ri-building-2-line me-1"></i> Infrastructure &amp; Facilities</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. WHY CHOOSE US (Image with Content & Good Design) -->
+  <section class="section bg-soft">
+    <div class="container">
+      <div class="section-title">
+        <span class="eyebrow">The VibeMed Advantage</span>
+        <h2>Why Patients &amp; Doctors Choose Us</h2>
+        <p>Combining the clinical acumen of renowned consultants with cutting-edge medical infrastructure.</p>
+      </div>
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="position-relative">
+            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=900&q=80" class="img-fluid img-rounded-lg shadow w-100" alt="Doctors collaborating">
+            <div class="position-absolute bottom-0 start-0 m-4 p-3 glass-card rounded-4 shadow-sm d-none d-sm-block">
+              <div class="d-flex align-items-center gap-3">
+                <div class="bg-primary text-white rounded-circle p-2 d-flex align-items-center justify-content-center" style="width:44px;height:44px;">
+                  <i class="ri-heart-3-fill fs-5"></i>
+                </div>
+                <div>
+                  <h6 class="mb-0 fw-bold">98.8% Satisfaction</h6>
+                  <small class="text-muted">Over 2,00,000 Happy Patients</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="d-flex flex-column gap-3">
+            <div class="why-feature-item">
+              <div class="icon-circle"><i class="ri-user-star-line"></i></div>
+              <div>
+                <h5 class="mb-1">Renowned Faculty &amp; Super Specialists</h5>
+                <p class="mb-0 text-muted small">Our medical board includes renowned senior clinicians with extensive experience in India, UK, and US premier hospitals.</p>
+              </div>
+            </div>
+            <div class="why-feature-item">
+              <div class="icon-circle"><i class="ri-robot-2-line"></i></div>
+              <div>
+                <h5 class="mb-1">Cutting-Edge Medical Technology</h5>
+                <p class="mb-0 text-muted small">Equipped with robotic joint replacement, 3T MRI, 128 slice CT, ECMO, and fully integrated modular operation theatres.</p>
+              </div>
+            </div>
+            <div class="why-feature-item">
+              <div class="icon-circle"><i class="ri-hand-heart-line"></i></div>
+              <div>
+                <h5 class="mb-1">Patient-Centric &amp; Ethical Healthcare</h5>
+                <p class="mb-0 text-muted small">Clear clinical communication, transparent billing, and clinical protocols focused purely on clinical necessity and patient recovery.</p>
+              </div>
+            </div>
+            <div class="why-feature-item">
+              <div class="icon-circle"><i class="ri-alarm-warning-line"></i></div>
+              <div>
+                <h5 class="mb-1">Zero Golden-Hour Delay Response</h5>
+                <p class="mb-0 text-muted small">Immediate triage for heart attack, acute stroke, and polytrauma cases with door-to-balloon time under 60 minutes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CENTRE OF EXCELLENCE -->
+  <section class="section">
+    <div class="container">
+      <div class="section-title">
+        <span class="eyebrow">Centres of Excellence</span>
+        <h2>Advanced Specialised Departments</h2>
+        <p>Comprehensive diagnostic and therapeutic solutions across all key medical disciplines.</p>
+      </div>
+      <div class="row g-4" id="home-specialities"></div>
+      <div class="text-center mt-5">
+        <a href="specialities.html" class="btn btn-primary"><i class="ri-apps-line me-1"></i> View All 10+ Specialities</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIND A DOCTOR SEARCH BAR (Glassmorphism Blur) -->
+  <section class="section bg-primary-gradient text-white py-5 position-relative overflow-hidden">
+    <div class="container position-relative" style="z-index: 2;">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-4">
+          <span class="glass-pill text-white px-3 py-1 rounded-pill small mb-2 d-inline-block"><i class="ri-search-eye-line me-1"></i> Fast OPD Booking</span>
+          <h2 class="text-white mb-1">Find Your Doctor</h2>
+          <p class="mb-0 text-white-50 small">Filter by speciality or clinician name to view profile and reserve slot.</p>
+        </div>
+        <div class="col-lg-8">
+          <form id="home-find-form" class="row g-2 glass-card p-3 rounded-4 shadow">
+            <div class="col-md-5">
+              <select id="home-spec" class="form-select border-0 shadow-sm py-2" aria-label="Speciality"></select>
+            </div>
+            <div class="col-md-4">
+              <select id="home-doc" class="form-select border-0 shadow-sm py-2" aria-label="Doctor"></select>
+            </div>
+            <div class="col-md-3 d-grid">
+              <button class="btn btn-accent py-2 shadow-sm" type="submit"><i class="ri-search-line me-1"></i> Search Doctor</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. SERVICES SECTION (Improved Design with Icons & Rich Content) -->
+  <section class="section bg-soft">
+    <div class="container">
+      <div class="section-title">
+        <span class="eyebrow">Comprehensive Healthcare</span>
+        <h2>24/7 Clinical &amp; Support Services</h2>
+        <p>Providing seamless inpatient, outpatient, and emergency care supported by round-the-clock facilities.</p>
+      </div>
+      <div class="row g-4">
+        <!-- Service 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card-modern">
+            <div class="service-icon"><i class="ri-first-aid-kit-line"></i></div>
+            <h5 class="fw-bold mb-2">24/7 Emergency &amp; Trauma</h5>
+            <p class="text-muted small mb-3">Level-1 trauma center with dedicated resuscitation suites, trauma surgeons, and zero-waiting golden-hour protocols.</p>
+            <div class="mt-auto">
+              <a href="services.html#emergency" class="fw-semibold text-primary small">Learn More <i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card-modern">
+            <div class="service-icon"><i class="ri-heart-pulse-line"></i></div>
+            <h5 class="fw-bold mb-2">Critical Care &amp; Intensive Care (ICU)</h5>
+            <p class="text-muted small mb-3">80+ specialised beds across MICU, SICU, CCU, and NICU, managed by board-certified intensivists and 1:1 nursing care.</p>
+            <div class="mt-auto">
+              <a href="services.html#icu" class="fw-semibold text-primary small">Learn More <i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card-modern">
+            <div class="service-icon"><i class="ri-microscope-line"></i></div>
+            <h5 class="fw-bold mb-2">NABL Diagnostic &amp; Imaging</h5>
+            <p class="text-muted small mb-3">High-resolution 3 Tesla MRI, low-dose 128 slice CT, digital mammography, and fully automated robotics-driven pathology labs.</p>
+            <div class="mt-auto">
+              <a href="services.html#diagnostics" class="fw-semibold text-primary small">Learn More <i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 4 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card-modern">
+            <div class="service-icon"><i class="ri-medicine-bottle-line"></i></div>
+            <h5 class="fw-bold mb-2">Round-the-Clock Pharmacy</h5>
+            <p class="text-muted small mb-3">In-hospital 24-hour certified pharmacy dispensing 100% authentic temperature-controlled medications, oncology drugs, and surgical consumables.</p>
+            <div class="mt-auto">
+              <a href="services.html#pharmacy" class="fw-semibold text-primary small">Learn More <i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 5 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card-modern">
+            <div class="service-icon"><i class="ri-truck-line"></i></div>
+            <h5 class="fw-bold mb-2">Advanced Cardiac Ambulances</h5>
+            <p class="text-muted small mb-3">GPS-tracked Advanced Life Support (ALS) ambulances equipped with transport ventilators, multipara monitors, and defibrillators.</p>
+            <div class="mt-auto">
+              <a href="services.html#ambulance" class="fw-semibold text-primary small">Learn More <i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Service 6 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="service-card-modern">
+            <div class="service-icon"><i class="ri-file-list-3-line"></i></div>
+            <h5 class="fw-bold mb-2">Preventive Health Checkups</h5>
+            <p class="text-muted small mb-3">Proactive health screening packages customized by age, gender, and lifestyle with same-day physician consultation and reports.</p>
+            <div class="mt-auto">
+              <a href="health-packages.html" class="fw-semibold text-primary small">Explore Packages <i class="ri-arrow-right-line"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <a href="services.html" class="btn btn-outline-primary"><i class="ri-service-line me-1"></i> View All Hospital Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. FEATURED DOCTORS (Swiper Slider + View All Button) -->
+  <section class="section">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4">
+        <div>
+          <span class="eyebrow text-accent fw-bold text-uppercase small">Medical Board</span>
+          <h2 class="mb-1">Meet Our Featured Doctors</h2>
+          <p class="text-muted mb-0">Book appointments with leading senior consultants across disciplines.</p>
+        </div>
+        <div class="d-flex align-items-center gap-2 mt-3 mt-md-0">
+          <div class="swiper-btn-custom doctors-prev" title="Previous"><i class="ri-arrow-left-s-line"></i></div>
+          <div class="swiper-btn-custom doctors-next" title="Next"><i class="ri-arrow-right-s-line"></i></div>
+          <a href="doctors.html" class="btn btn-primary btn-sm ms-2"><i class="ri-team-line me-1"></i> View All Doctors</a>
+        </div>
+      </div>
+
+      <!-- Doctors Swiper -->
+      <div class="swiper doctors-swiper py-2">
+        <div class="swiper-wrapper" id="featured-doctors-slider"></div>
+        <div class="swiper-pagination doctors-pagination mt-4 position-relative"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. HEALTH PACKAGES (New Attractive Design) -->
+  <section class="section bg-soft">
+    <div class="container">
+      <div class="section-title">
+        <span class="eyebrow">Preventive Wellness</span>
+        <h2>Popular Health Checkup Packages</h2>
+        <p>Catch symptoms early with our accredited screening programs designed for every life stage.</p>
+      </div>
+
+      <div class="row g-4 align-items-stretch">
+        <!-- Package 1 -->
+        <div class="col-lg-4 col-md-6">
+          <div class="package-card-premium">
+            <div class="package-header">
+              <span class="badge bg-primary-subtle text-primary mb-2">Essential</span>
+              <h4 class="fw-bold mb-1">Basic Health Checkup</h4>
+              <p class="text-muted small mb-0">Ideal routine annual checkup for adults &amp; youngsters.</p>
+              <div class="package-price-wrap">
+                <span class="current-price">₹2,999</span>
+                <span class="old-price">₹4,500</span>
+                <span class="badge bg-success-subtle text-success small">Save 33%</span>
+              </div>
+            </div>
+            <ul class="package-features">
+              <li><i class="ri-checkbox-circle-fill"></i> Complete Blood Count (CBC) - 24 Params</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Fasting Blood Sugar (FBS)</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Lipid Profile (Cholesterol &amp; Triglycerides)</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Kidney Function Test (KFT &amp; Creatinine)</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Liver Function Test (LFT)</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Urine Routine &amp; Microscopic Examination</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Senior Physician Consultation &amp; Review</li>
+            </ul>
+            <div class="package-footer">
+              <a href="book-appointment.html" class="btn btn-outline-primary w-100"><i class="ri-calendar-check-line me-1"></i> Book Package</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Package 2 (Featured Popular) -->
+        <div class="col-lg-4 col-md-6">
+          <div class="package-card-premium featured-popular">
+            <span class="package-ribbon"><i class="ri-fire-fill me-1"></i> Most Popular</span>
+            <div class="package-header bg-soft">
+              <span class="badge bg-primary text-white mb-2">Comprehensive</span>
+              <h4 class="fw-bold mb-1">Executive Health Checkup</h4>
+              <p class="text-muted small mb-0">Total body screening tailored for working professionals.</p>
+              <div class="package-price-wrap">
+                <span class="current-price">₹6,999</span>
+                <span class="old-price">₹10,500</span>
+                <span class="badge bg-success text-white small">Save 35%</span>
+              </div>
+            </div>
+            <ul class="package-features">
+              <li><i class="ri-checkbox-circle-fill"></i> All Tests in Basic Health Package</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Glycated Haemoglobin (HbA1c 3-Month Sugar)</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Thyroid Profile Total (T3, T4, TSH)</li>
+              <li><i class="ri-checkbox-circle-fill"></i> 12-Lead ECG &amp; 2D Echocardiography</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Digital Chest X-Ray &amp; Ultrasound Abdomen</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Vitamin D3 &amp; Vitamin B12 Levels</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Cardiologist &amp; Nutritionist Consultation</li>
+            </ul>
+            <div class="package-footer">
+              <a href="book-appointment.html" class="btn btn-primary w-100 shadow"><i class="ri-calendar-check-line me-1"></i> Book Package</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Package 3 -->
+        <div class="col-lg-4 col-md-6 mx-auto">
+          <div class="package-card-premium">
+            <div class="package-header">
+              <span class="badge bg-primary-subtle text-primary mb-2">Senior Care</span>
+              <h4 class="fw-bold mb-1">Senior Citizen Package</h4>
+              <p class="text-muted small mb-0">Focused on geriatric vitals, bone density, and heart health.</p>
+              <div class="package-price-wrap">
+                <span class="current-price">₹4,999</span>
+                <span class="old-price">₹7,800</span>
+                <span class="badge bg-success-subtle text-success small">Save 36%</span>
+              </div>
+            </div>
+            <ul class="package-features">
+              <li><i class="ri-checkbox-circle-fill"></i> CBC, HbA1c, and Serum Electrolytes</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Comprehensive Cardiac &amp; Renal Panels</li>
+              <li><i class="ri-checkbox-circle-fill"></i> DEXA Bone Mineral Density Scan</li>
+              <li><i class="ri-checkbox-circle-fill"></i> PSA (Males) / Mammography (Females)</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Hearing &amp; Comprehensive Eye Examination</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Pulmonary Function Test (Spirometry)</li>
+              <li><i class="ri-checkbox-circle-fill"></i> Geriatric Specialist Assessment</li>
+            </ul>
+            <div class="package-footer">
+              <a href="book-appointment.html" class="btn btn-outline-primary w-100"><i class="ri-calendar-check-line me-1"></i> Book Package</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5">
+        <a href="health-packages.html" class="btn btn-primary"><i class="ri-gift-line me-1"></i> View All Packages &amp; Corporate Plans</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. PATIENT STORIES (Swiper Slider) -->
+  <section class="section">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4">
+        <div>
+          <span class="eyebrow text-accent fw-bold text-uppercase small">Real Experiences</span>
+          <h2 class="mb-1">Patient Testimonials &amp; Stories</h2>
+          <p class="text-muted mb-0">Heartfelt stories of recovery and care from our patients.</p>
+        </div>
+        <div class="d-flex align-items-center gap-2 mt-3 mt-md-0">
+          <div class="swiper-btn-custom testimonials-prev"><i class="ri-arrow-left-s-line"></i></div>
+          <div class="swiper-btn-custom testimonials-next"><i class="ri-arrow-right-s-line"></i></div>
+        </div>
+      </div>
+
+      <div class="swiper testimonials-swiper py-2">
+        <div class="swiper-wrapper">
+          <!-- Story 1 -->
+          <div class="swiper-slide h-auto">
+            <div class="testimonial d-flex flex-column h-100">
+              <div class="stars mb-3"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></div>
+              <p class="text-muted fst-italic flex-grow-1">"When my father suffered an acute heart attack, the VibeMed emergency and cardiology team under Dr. Rahul Sharma performed primary angioplasty within 40 minutes. They truly saved his life. The ICU nursing care was exemplary."</p>
+              <div class="d-flex align-items-center gap-3 pt-3 border-top mt-auto">
+                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80" alt="Rajesh Kumar">
+                <div>
+                  <h6 class="mb-0 fw-bold">Rajesh Kumar</h6>
+                  <small class="text-muted">Cardiac Patient Family</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Story 2 -->
+          <div class="swiper-slide h-auto">
+            <div class="testimonial d-flex flex-column h-100">
+              <div class="stars mb-3"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></div>
+              <p class="text-muted fst-italic flex-grow-1">"I underwent bilateral robotic knee replacement under Dr. Amit Verma. I had been suffering from osteoarthritis for 7 years. I was walking without pain on day 2! Clean rooms, courteous staff, and seamless insurance cashless clearance."</p>
+              <div class="d-flex align-items-center gap-3 pt-3 border-top mt-auto">
+                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80" alt="Sunita Devi">
+                <div>
+                  <h6 class="mb-0 fw-bold">Sunita Devi</h6>
+                  <small class="text-muted">Robotic Knee Replacement</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Story 3 -->
+          <div class="swiper-slide h-auto">
+            <div class="testimonial d-flex flex-column h-100">
+              <div class="stars mb-3"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></div>
+              <p class="text-muted fst-italic flex-grow-1">"Traveled all the way from Kenya for spine decompression surgery. The international patient desk arranged our airport transfer, guest house, and translator. Dr. Priya Mehta and the team gave us utmost confidence. Highly recommend!"</p>
+              <div class="d-flex align-items-center gap-3 pt-3 border-top mt-auto">
+                <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=120&q=80" alt="David Otieno">
+                <div>
+                  <h6 class="mb-0 fw-bold">David Otieno</h6>
+                  <small class="text-muted">International Patient (Nairobi)</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Story 4 -->
+          <div class="swiper-slide h-auto">
+            <div class="testimonial d-flex flex-column h-100">
+              <div class="stars mb-3"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></div>
+              <p class="text-muted fst-italic flex-grow-1">"Delivered our baby girl here under Dr. Sneha Kapoor's care. The maternity suites, lactation experts, and neonatal backup were world class. We felt completely safe and nurtured like family throughout our stay."</p>
+              <div class="d-flex align-items-center gap-3 pt-3 border-top mt-auto">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=120&q=80" alt="Meera Sen">
+                <div>
+                  <h6 class="mb-0 fw-bold">Meera &amp; Vikram Sen</h6>
+                  <small class="text-muted">Maternity &amp; Obstetrics</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination testimonials-pagination mt-4 position-relative"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERNATIONAL PATIENTS CALLOUT -->
+  <section class="section bg-soft">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6">
+          <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=900&q=80" class="img-fluid img-rounded-lg shadow w-100" alt="International patients flight">
+        </div>
+        <div class="col-lg-6">
+          <span class="text-accent fw-bold text-uppercase small">Healthcare Without Borders</span>
+          <h2 class="mt-2 mb-3">Global Patient Assistance Program</h2>
+          <p class="lead text-primary fw-medium">Complete end-to-end guidance for patients traveling to India for medical treatment.</p>
+          <p class="text-muted">From medical visa invitation letters to translation services and custom post-discharge teleconsultations, our international patient desk ensures complete peace of mind.</p>
+          <div class="row g-2 mb-4">
+            <div class="col-sm-6"><ul class="check-list small mb-0"><li>Complimentary medical opinion</li><li>Transparent cost estimation</li><li>Visa facilitation support</li></ul></div>
+            <div class="col-sm-6"><ul class="check-list small mb-0"><li>Airport pickup &amp; transfer</li><li>Dedicated guest relation manager</li><li>Follow-up telemedicine calls</li></ul></div>
+          </div>
+          <a href="international-patients.html" class="btn btn-primary"><i class="ri-global-line me-1"></i> Learn More About International Care</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. LATEST HEALTH ARTICLES (Swiper Slider) -->
+  <section class="section">
+    <div class="container">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4">
+        <div>
+          <span class="eyebrow text-accent fw-bold text-uppercase small">Doctor Insights</span>
+          <h2 class="mb-1">Latest Health Articles &amp; Wellness</h2>
+          <p class="text-muted mb-0">Evidence-based health advice published by our medical specialists.</p>
+        </div>
+        <div class="d-flex align-items-center gap-2 mt-3 mt-md-0">
+          <div class="swiper-btn-custom articles-prev"><i class="ri-arrow-left-s-line"></i></div>
+          <div class="swiper-btn-custom articles-next"><i class="ri-arrow-right-s-line"></i></div>
+          <a href="blog.html" class="btn btn-outline-primary btn-sm ms-2"><i class="ri-article-line me-1"></i> View All Articles</a>
+        </div>
+      </div>
+
+      <!-- Articles Swiper -->
+      <div class="swiper articles-swiper py-2">
+        <div class="swiper-wrapper" id="latest-articles-slider"></div>
+        <div class="swiper-pagination articles-pagination mt-4 position-relative"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EMERGENCY CTA -->
+  <section class="pb-5">
+    <div class="container">
+      <div class="cta-emergency shadow-lg">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-8">
+            <span class="badge bg-white text-danger fw-bold px-3 py-2 rounded-pill mb-2"><i class="ri-alarm-warning-fill me-1"></i> Immediate Response</span>
+            <h2 class="mb-2 text-white">Need Emergency Assistance?</h2>
+            <p class="mb-0 fs-5 text-white-50">24/7 Trauma Helpline &amp; Rapid Cardiac Ambulance Dispatch.</p>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a href="tel:+919876543210" class="btn btn-light btn-lg fw-bold shadow"><i class="ri-phone-fill text-danger me-1"></i> Call +91 98765 43210</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="site-footer"></div>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
